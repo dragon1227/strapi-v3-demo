@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "trades",
+  "info": {
+    "name": "Trade"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "listing_reward": {
+      "model": "listing-reward"
+    }
+  }
+}
